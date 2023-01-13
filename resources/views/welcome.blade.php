@@ -72,5 +72,16 @@
             <button class="hero-button">Explore</button>
         </div>
     </div>
-    <div class="backgroundimage">
-    </div>
+
+    <footer>
+  <div class="foot">
+    <p>Copyright ©2022, Everest Philatelic</p>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
