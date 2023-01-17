@@ -75,7 +75,7 @@
 
     <footer>
   <div class="foot">
-    <p>Copyright ©2022, Everest Philatelic</p>
+    <p>Copyright ©2022, Everest Philatelic Society</p>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
