@@ -36,7 +36,6 @@
 
     <div class="container">
         <h1>Explore the world</h1>
-        <h2>Explore the world</h2>
         <h3>One postage stamp at a time</h3>
 
         <div class="color-overlay"></div>

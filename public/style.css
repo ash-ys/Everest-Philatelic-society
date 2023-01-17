@@ -133,28 +133,11 @@ header h1 {
     text-align: center;
     text-transform: uppercase;
 
-    color: #f36113;
-}
-
-.container h2 {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0);
-    position: absolute;
-    width: 345px;
-    height: 297px;
-    left: 548px;
-    top: 201px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 99px;
-
-    text-align: center;
-    text-transform: uppercase;
-
     color: #ffffff;
+    text-shadow: 5px 5px #f36113;
 }
+
+
 
 .container h3 {
     position: absolute;
@@ -260,6 +243,7 @@ header h1 {
 }
 
 .card-one button {
+    
     color: white;
     padding: 12px 20px;
     border: none;
@@ -270,10 +254,19 @@ header h1 {
     border: 2px solid #ffffff;
     border-radius: 0px;
     background: rgba(0, 0, 0, 0);
+
+    
 }
 
 .card-one:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card-one button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+
 }
 
 .card-two img {
@@ -305,6 +298,11 @@ header h1 {
 
 .card-two:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-two button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+
 }
 
 .card-three img {
@@ -339,6 +337,11 @@ header h1 {
 
 .card-three:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-three button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+
 }
 
 .background {
@@ -410,6 +413,9 @@ header h1 {
     background: #FFFFFF;
     border: 2px solid #000000;
     border-radius: 0px;
+}
+.hero-button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer {
