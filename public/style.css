@@ -28,20 +28,6 @@ header {
     padding: 30px 10%;
 }
 
-header h1 {
-    position: absolute;
-    width: 78px;
-    height: 68px;
-    left: 350px;
-    top: 45px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 22px;
-
-    color: #996e22;
-}
-
 .logo {
     cursor: pointer;
     width: 190px;
@@ -83,11 +69,26 @@ header h1 {
     color: white;
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display:block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
 .nav-two {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
     background: #f36113;
 }
 
@@ -240,7 +241,7 @@ header h1 {
     width: 42px;
     height: 52px;
     left: 204px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .card-one h2 {
@@ -250,7 +251,7 @@ header h1 {
 }
 
 .card-one button {
-    
+
     color: white;
     padding: 12px 20px;
     border: none;
@@ -262,7 +263,7 @@ header h1 {
     border-radius: 0px;
     background: rgba(0, 0, 0, 0);
 
-    
+
 }
 
 .card-one:hover {
@@ -278,7 +279,7 @@ header h1 {
 
 .card-two img {
     background: rgba(0, 0, 0, 0);
-    margin-top: 10px;
+    margin-top: 50px;
     width: 42px;
     height: 52px;
     left: 204px;
@@ -306,6 +307,7 @@ header h1 {
 .card-two:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .card-two button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
@@ -318,7 +320,7 @@ header h1 {
     width: 42px;
     height: 52px;
     left: 204px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .card-three h2 {
@@ -345,6 +347,7 @@ header h1 {
 .card-three:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .card-three button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
@@ -422,44 +425,80 @@ header h1 {
     border: 2px solid #000000;
     border-radius: 0px;
 }
-.hero-button:hover{
+
+.hero-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding:5em;
-  }
-  
-  .containerfooter {
+    padding: 5em;
+}
+
+.containerfooter {
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .col-md-3 {
+}
+
+.col-md-3 {
     flex: 1;
     padding: 1em;
-  }
-  
-  h4 {
+}
+
+h4 {
     margin-bottom: 0.5em;
-  }
-  
-  a {
+}
+
+a {
     color: #fff;
     text-decoration: none;
     display: block;
     margin-bottom: 0.5em;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     text-align: center;
     margin-top: 1em;
-  }
-  
+}
+
+@media screen and (max-width:600px) {
+    .container h1 {
+
+        text-transform: uppercase;
+
+        color: #ffffff;
+        text-shadow: 5px 5px #f36113;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform:translateY(-8px) rotate(-45deg);
+    }
+    .nav-links{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap:0;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+}

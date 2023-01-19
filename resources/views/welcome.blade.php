@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,6 @@
 <body>
     <header>
         <img class="logo" src="{{asset('img/logo.png')}}" alt="Everest philatelic society">
-        <h1>Everest Philatelic Society</h1>
         <nav>
             <ul class="nav-links">
                 <li><a href="#">HOME</a></li>
@@ -20,6 +20,11 @@
                 <li><a href="#">EVENTS</a></li>
                 <li><a href="#">BLOGS</a></li>
             </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
         </nav>
         <a class="cta" href="#"><button>CONTACT</button></a>
     </header>
