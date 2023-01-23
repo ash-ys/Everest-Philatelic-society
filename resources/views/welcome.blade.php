@@ -112,7 +112,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p>Copyright ©2022 Everest Philatelic Society</p>
+      <p>Copyright ©2023 Everest Philatelic Society</p>
     </div>
   </div>
 </footer>
