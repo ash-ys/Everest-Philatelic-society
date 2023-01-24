@@ -78,42 +78,49 @@
         </div>
     </div>
 
-    <footer>
-  <div class="containerfooter">
-    <div class="row">
-      <div class="col-md-3">
-        <h4>Location</h4>
-        <p>123 Main St</p>
-        <p>Pokhara, Nepal 12345</p>
-      </div>
-      <div class="col-md-3">
-        <h4>Social Links</h4>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h4>About</h4>
-        <ul>
-          <li><a href="#">Company</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Blogs</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="copyright">
-      <p>Copyright ©2023 Everest Philatelic Society</p>
-    </div>
-  </div>
-</footer>
 
+<div class="whitebox-one">
+  <div class="orangebox-one"><div class="imagebox-one">
+  </div><div>
+    <h1>history of Postal stamps in Nepal</h1>
+    <p>Nepal issued its first postage stamps in 1881, under the rule of Prime Minister Chandra Shamsher Jang Bahadur Rana. The stamps featured the image of King Tribhuvan, who had recently ascended to the throne. In the following decades, Nepal issued a number of stamps with various designs, including images of Hindu gods and goddesses, cultural symbols, and historical figures.
+
+In the 1960s and 1970s, Nepal began issuing stamps with more modern designs, including images of airplanes, spacecraft, and other technological advances. In recent years, Nepal has also issued stamps with themes related to natural beauty, cultural heritage, and important events in the country's history.
+
+Overall, the history of postal stamps in Nepal reflects the country's rich cultural history and its development over time.</p>
+</div>
+
+<div class="whitebox-two">
+  <div class="orangebox-two"><div class="imagebox-two">
+  </div></div>
+    <h1>Vision and Mission</h1>
+    <p> <span style="color:blue;font-weight:bold">Vision:</span>
+
+To provide  space for every individual  that shares philatelic collections that allow conversation about our past, present and future postal service.<br>
+
+<span style="color:blue;font-weight:bold">Misson:</span>
+
+To introduce others, about Nepelese stamps through social media, exhibits and displays.
+To encourage the hobby of stamp collecting by being a resource for philatelic information and resources.
+To serve as a representative and pipeline for more diverse museum professionals.
+To be a backbone for conversations that improve relationships, facilitate mutual respect and support inclusion.</p>
+</div>
+
+<div class="whitebox-three">
+  <div class="orangebox-three"><div class="imagebox-three">
+  </div></div>
+    <h1>objective of stamps collection</h1>
+    <p>It is possible to collect stamps with a focus on a variety of themes, including history, nature, art, people, and temples.
+
+Collecting stamps with a focus on history may involve seeking out stamps that depict historical events or figures, or stamps that were issued during a particular time period. This can provide a way to learn about and appreciate different aspects of history.
+
+Nature-themed stamps can showcase a wide range of flora and fauna, as well as landscapes and natural phenomena. These stamps can be of interest to those who appreciate the beauty of nature and the outdoors.
+
+Art-themed stamps may feature works by famous artists or depict artistic styles or movements. These stamps can be a way for art lovers to appreciate and collect works of art in a small, affordable format.
+
+People-themed stamps can depict famous individuals, such as politicians, scientists, or artists, as well as everyday people or cultural figures. These stamps can provide a way to learn about different people and their contributions to society.
+
+Temple-themed stamps may feature images of famous temples or other places of worship from around the world.</p>
+</div>
+
+<footer></footer>
